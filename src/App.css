@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fafafa;
+  margin-top: 10px;
+  background-color:#d7318d;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #889fb0;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+button {
+  background-color: #c52a65;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:#b672d7;
+}
+
+/* Result Section */
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result h2 {
+  font-size: 1.5rem;
+  color: #4CAF50;
+}
+
+.result p {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  left:0;
+}
+
+footer a {
+  color: #c605db;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* Social Icons in Footer */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 2rem;
+  margin: 0 15px;
+}
+
+.social-icons a:hover {
+  color: #4CAF50;
+}
